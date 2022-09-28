@@ -2,13 +2,18 @@
     "json.schemas": [
     
     ]
-}
-{
+  }
+  {
     "liveSassCompile.settings.formats": [
       {
         "format": "expanded",
         "extensionName": ".css",
-        "savePath": null
+        "savePath": "~/../css"
+      },
+      {
+        "format": "compressed",
+        "extensionName": ".min.css",
+        "savePath": "~/../css"
       }
     ]
   }
